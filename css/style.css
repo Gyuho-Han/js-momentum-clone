@@ -29,7 +29,7 @@ img {
     display: flex; 
     justify-content: center; 
     position: relative;
-    bottom: 350px;
+    bottom: 270px;
 }
 
 #weather {
@@ -52,7 +52,7 @@ img {
 
 #todo-form {
     position:absolute;
-    bottom: 400px;
+    bottom: 280px;
     right: 51%;
     transform:translate(50%, 50%);
     margin: 0;
@@ -60,7 +60,7 @@ img {
 
 #login-form {
     position:absolute;
-    bottom: 340px;
+    bottom: 210px;
     right: 51%;
     transform:translate(50%, 50%);
     margin: 0;
@@ -74,11 +74,11 @@ img {
 #todo-list {
     color: white;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     display: block;
-    width: 500px;
+    width: 800px;
     height: 100px;
-    margin: -300px auto;
+    margin: -230px auto;
 }
 
 ul {

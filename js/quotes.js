@@ -31,14 +31,6 @@ const quotes = [
         quote: "Success is the sum of small efforts, repeated day in and day out.",
         author: "Robert Collier",
     },
-    {
-        quote: "You will be the same person in five years as you are today except for the books you read and the people you meet.",
-        author: "Charlie “Tremendous” Jones",
-    },
-    {
-        quote: "Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose.",
-        author: "Steve Jobs",
-    }
 ];
 
 const quote = document.querySelector("#quote span:first-child");
