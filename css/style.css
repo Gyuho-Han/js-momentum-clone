@@ -58,6 +58,19 @@ img {
     margin: 0;
 }
 
+#login-form {
+    position:absolute;
+    bottom: 340px;
+    right: 51%;
+    transform:translate(50%, 50%);
+    margin: 0;
+
+    button {
+        position:absolute;
+        left: 80px;
+    }
+}
+
 #todo-list {
     color: white;
     text-align: center;
