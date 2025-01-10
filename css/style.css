@@ -28,8 +28,10 @@ img {
     font-size: 50px;
     display: flex; 
     justify-content: center; 
-    position: relative;
-    bottom: 270px;
+    position: absolute;
+    bottom: 40%;
+    right:50%;
+    transform: translate(50%);
 }
 
 #weather {
@@ -52,7 +54,7 @@ img {
 
 #todo-form {
     position:absolute;
-    bottom: 280px;
+    bottom: 40%;
     right: 51%;
     transform:translate(50%, 50%);
     margin: 0;
@@ -60,7 +62,7 @@ img {
 
 #login-form {
     position:absolute;
-    bottom: 210px;
+    bottom: 49%;
     right: 51%;
     transform:translate(50%, 50%);
     margin: 0;
@@ -78,7 +80,10 @@ img {
     display: block;
     width: 800px;
     height: 100px;
-    margin: -230px auto;
+    position: absolute;
+    bottom: 20%;
+    right: 50%;
+    transform: translate(50%);
 }
 
 ul {
@@ -86,13 +91,29 @@ ul {
     font-size: 30px;
 }
 
-input {
-    background: #fff;
+input{
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     width: 100%;
-    color: #333;
+}
+
+#google-search {
+    padding: 20px;
+    position:absolute;
+    bottom: 89%;
+    right: 10%;
+    transform:translate(50%, 50%);
+    margin: 0;
+    width: 250px;
+
+    input {
+        border-radius: 100px;
+        background-color: #777777;
+    }
+
+    ::placeholder {
+        color: white;
+    }
 }
 
 
